@@ -1,0 +1,37 @@
+@import "../../node_modules/bootstrap/less/bootstrap";
+@import "../../bower_components/bootstrap-material-design/less/material-fullpalette";
+
+body {
+  height:100%;
+  width:100%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+@pixelBorder: 1px solid #000000;
+
+.pixel{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  border:@pixelBorder;
+  height:100%;
+  display: inline-block;
+  float:left;
+}
+
+.pixel-row{
+  clear:left;
+}
+
+.clear{
+  margin: 0;
+  padding: 0;
+  height:0;
+  width:0;
+  clear: both;
+}
+

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#runs npm to install all our libs
+npm i || sudo npm i &&
+
+#runs bower install
+bower i &&
+
+#instal typescript typings
+tsd reinstall -so
+
+#grunt to application
+grunt
+
+
+
